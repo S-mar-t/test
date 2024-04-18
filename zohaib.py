@@ -1,2 +1,9 @@
-Hello world
-<p>this is the first paragraph</p>
+light = input("light :")
+if light == "red":
+    print("stop")
+elif light == "yellow":
+    print("look around")
+elif light == "green":
+        print("go")
+else:
+    print("light is broken or damaged")
